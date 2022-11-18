@@ -1,0 +1,81 @@
+.root {
+  border: 1px solid aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.inroot {
+  border: 1px solid palevioletred;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  width: 400px;
+  padding: 15px;
+}
+.title {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.delete {
+  background: rgba(238, 198, 153, 0.986);
+  width: 100px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #282828;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.change {
+  background: yellow;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #282828;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.chtitle {
+  background: #282828;
+  border: 1px solid palevioletred;
+  border-radius: 20px;
+  padding: 10px;
+  width: 250px;
+  color: #fff;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.save {
+  background: greenyellow;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 170px;
+  margin-top: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.done {
+  color: aquamarine;
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
+.completed {
+  margin-right: 20px;
+  margin-left: 20px;
+  background: lavender;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #282828;
+  &:hover {
+    cursor: pointer;
+  }
+}

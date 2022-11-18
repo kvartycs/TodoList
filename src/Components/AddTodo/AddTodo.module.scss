@@ -1,0 +1,23 @@
+.inp {
+  border: 2px solid palevioletred;
+  border-radius: 20px;
+  padding: 13px;
+  margin-right: 15px;
+  background: #282828;
+  color: #fff;
+}
+.btn {
+  background: palevioletred;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.root {
+  margin-bottom: 40px;
+}
